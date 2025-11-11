@@ -1,0 +1,39 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Environment Variables (CRITICAL - Never commit!)
+.env
+*.env
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Log Files
+logs/
+*.log
+
+# IDE Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Test Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Distribution / Packaging
+dist/
+build/
+*.egg-info/
