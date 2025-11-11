@@ -31,23 +31,27 @@ An automated security monitoring system that detects unauthorized privilege esca
 
 Edit the `.env` file with your settings:
 
-SMTP_SERVER=smtp.gmail.com
-SMTP_PORT=587
-SENDER_EMAIL=your-email@gmail.com
-SENDER_PASSWORD=your-app-password
-RECIPIENT_EMAIL=admin@company.com
-CHECK_INTERVAL=60
+SMTP_SERVER=smtp.gmail.com <br>
+SMTP_PORT=587 <br>
+SENDER_EMAIL=your-email@gmail.com <br>
+SENDER_PASSWORD=your-app-password <br>
+RECIPIENT_EMAIL=admin@company.com <br>
+CHECK_INTERVAL=60 <br>
 
 ## Usage
 
 ### Windows
 Run Command Prompt as Administrator:
+<br>
 venv\Scripts\activate
+<br>
 python -m src.monitor
 
 ### Linux
 Run with sudo privileges:
+<br>
 source venv/bin/activate
+<br>
 sudo -E python -m src.monitor
 
 ## Monitored Events
@@ -85,7 +89,7 @@ MIT License
 
 ## Author
 
-[Your Name]
+Nagendra Varma
 
 ## Contributing
 
